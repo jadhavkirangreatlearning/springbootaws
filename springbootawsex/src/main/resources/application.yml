@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://springbootawsdb.cve6qkaogsmz.ap-south-1.rds.amazonaws.com:3306/springbootawsdb?createDatabaseIfNotExist=true&autoReconnect=true&showSSL=false
+    username: root
+    password: FullStack123
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
